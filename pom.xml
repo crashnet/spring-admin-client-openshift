@@ -49,17 +49,17 @@
 		</dependency>
 	</dependencies>
 
-<!-- 	<dependencyManagement> -->
-<!-- 		<dependencies> -->
-<!-- 			<dependency> -->
-<!-- 				<groupId>de.codecentric</groupId> -->
-<!-- 				<artifactId>spring-boot-admin-dependencies</artifactId> -->
-<!-- 				<version>${spring-boot-admin.version}</version> -->
-<!-- 				<type>pom</type> -->
-<!-- 				<scope>import</scope> -->
-<!-- 			</dependency> -->
-<!-- 		</dependencies> -->
-<!-- 	</dependencyManagement> -->
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>de.codecentric</groupId>
+				<artifactId>spring-boot-admin-dependencies</artifactId>
+				<version>${spring-boot-admin.version}</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 <!--  <profiles> -->
 <!--         <profile> -->
 <!--             When built in OpenShift the 'openshift' profile will be used when invoking mvn. -->
